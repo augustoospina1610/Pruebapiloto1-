@@ -1,0 +1,35 @@
+@font-face {
+    font-family: 'pal_modregular';
+    src: url('pal_mod-webfont.woff2') format('woff2'),
+         url('pal_mod-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+body {
+	
+  font-family: 'pal_modregular';
+	font-style: normal;
+	background-color: pink;  
+}
+div {
+
+	display: inline-block;
+	background-color: #BDB76B;
+	width: 30%;
+	height: 250px;
+	float: left;
+	overflow: visible;
+	padding: 20px
+	border: 5px solid #00CED1;
+	margin: 15px;
+}
+
+span{
+	display:inline-block;
+	width: 30%;
+	float: right; 
+
+}
+
