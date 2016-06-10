@@ -24,6 +24,8 @@ div {
 	padding: 20px
 	border: 5px solid #00CED1;
 	margin: 15px;
+	background-image: url(https://www.flickr.com/photos/augustocol_busandair/27386890715/);
+
 }
 
 span{
@@ -32,4 +34,6 @@ span{
 	float: right; 
 
 }
+
+
 
