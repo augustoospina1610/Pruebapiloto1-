@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html>
+<head>
+<!--Desarrollando el formulario-->
+<!--Por Carlos Augusto Ospina Romero-->
+	<title>Formulario de Datos Personales</title>
+</head>
+<body>
+		<fieldset>
+			<legend>Detalle del persona</legend>
+			<div>
+				<label>
+				Nombre*:
+				<input id="nombre" name="nombre" type="text" placeholder="Nombre completo">
+				</label>
+				<label>
+				Apellido*: 
+				<input id="apellido" name="nombre" type="text" placeholder="Apellido Completo">
+				<h6>*Campo obligatorio</h6>
+			</div>
+				<label>
+				Documento de Identidad*
+				<input id="documento" name="documento" placeholder="Numero de identificacion" type="number">
+				<select>
+				<option>Seleccione......</option>
+				<option>Tarjeta de Identidad</option>
+				<option>Cedula de Ciudadania C.C</option>
+				<option>Cedula Extranjera C.E</option>
+				<option>Pasaporte</option>
+				</select>
+				<h6>*Campo Obligatorio</h6>
+				</label>
+			<div>
+				<label>
+				Fecha de nacimiento*
+				Dia
+				<input id="date" name="day" placeholder="Dia" type="number" min="1" max="31">
+				Mes
+				<select>
+				<option>Enero</option>
+				<option>Febrero</option>
+				<option>Marzo</option>
+				<option>Abril</option>
+				<option>Mayo</option>
+				<option>Junio</option>
+				<option>Julio</option>
+				<option>Agosto</option>
+				<option>Septiembre</option>
+				<option>Octubre</option>
+				<option>Noviembre</option>
+				<option>Diciembre</option>
+				</select>
+				Año
+				<input id="date" name="year" placeholder="Año" type="number" min="1900" max="2016">
+				<h6>*Campo obligatorio</h6>
+				</label>
+			</div>
+			<div>
+				<label>
+				Genero*:
+				<form>
+					<input type="radio" name="gender" value="male" checked> Hombre<br>
+					<input type="radio" name="gender" value="female" checked> Mujer<br>
+					<input type="radio" name="gender" value="transgender" checked> Transgenero<br>
+				</form>
+				</label>
+			</div>
+			<div>
+				<label>
+				Estado Civil*:
+				<select>
+				<option>Soltero(a)</option>
+				<option>Casado(a)</option>
+				<option>Divorciado(a) o Separado(a)</option>
+				<option>Union Libre</option>
+				<option>Viudo(a)</option>
+				</select>
+				</label>
+			</div>
+			<div>
+				Telefono 1:
+				<select>
+				<option>Fijo</option>
+				<option>Celular</option>
+				</select>
+				<input id="phone" name="phone" placeholder="Numero Telefonico" type="number">
+			</div>
+			<div>
+				Telefono 2:
+				<select>
+				<option>Fijo</option>
+				<option>Celular</option>
+				</select>
+				<input id="phone" name="phone" placeholder="Numero Telefonico" type="number">
+			</div>
+				Pais:
+				<select>
+				<option>Argentina</option>
+				<option>Chile</option>
+				<option>Colombia</option>
+				</select>
+			<div>
+				Departamento
+				<select>
+				<option>Amazonas</option>
+				<option>Antioquia</option>
+				<option>Arauca</option>
+				<option>Atlantico</option>
+				<option>Bogota D.C.</option>
+				<option>Bolivar</option>
+				<option>Boyaca</option>
+				<option>Caldas</option>
+				<option>Caqueta</option>
+				<option>Casanare</option>
+				<option>Cauca</option>
+				<option>Cesar</option>
+				<option>Choco</option>
+				<option>Cordoba</option>
+				<option>Cundinamarca</option>
+				<option>Guainia</option>
+				<option>Guaviare</option>
+				<option>Huila</option>
+				<option>La Guajira</option>
+				<option>Magdalena</option>
+				<option>Meta</option>
+				<option>Nariño</option>
+				<option>Norte de Santander</option>
+				<option>Putumayo</option>
+				<option>Quindio</option>
+				<option>Risaralda</option>
+				<option>San Andres y Providencia</option>
+				<option>Santander</option>
+				<option>Sucre</option>
+				<option>Tolima</option>
+				<option>Valle de Cauca</option>
+				<option>Vaupes</option>
+				<option>Vichada</option>
+				</select>
+			</div>
+			<div>
+				Ciudad
+				<select>
+				<option>Abejorral</option>
+				<option>Abriaqui</option>
+				<option>Alejandria</option>
+				<option>Amaga</option>
+				<option>Amalfi</option>
+				<option>Andes</option>
+				<option>Angelopolis</option>
+				<option>Angostura</option>
+				<option>Anori</option>
+				<option>Anza</option>
+				<option>Apartado</option>
+				<option>Arboletes</option>
+				<option>Argelia</option>
+				<option>Armenia</option>
+				<option>Armenia-Mantequilla</option>
+				<option>Barbosa</option>
+				<option>Bello</option>
+				<option>Belmira</option>
+				<option>Betania</option>
+				<option>Betulia</option>
+				<option>Ciudad Bolivar</option>
+				<option>Briceño</option>
+				<option>Butifica</option>
+				<option>Caceres</option>
+				<option>Caicedo</option>
+				<option>Caldas</option>
+				<option>Campamento</option>
+				<option>Cañasgordas</option>
+				<option>Caracoli</option>
+				<option>Caramanta</option>
+				<option>Carepa</option>
+				<option>Carolina del Principe</option>
+				<option>Caucasia</option>
+				<option>Cocorna</option>
+				<option>Chigorodo</option>
+				<option>Cisneros</option>
+				<option>Concepción</option>
+				<option>Concordia</option>
+				<option>Copacabana</option>
+				<option>Dabeiba</option>
+				<option>Donmatias</option>
+				<option>Ebejico</option>
+				<option>El Bagre</option>
+				<option>El Carmen de Viboral</option>
+				<option>El Peñol</option>
+				<option>El Retiro</option>
+				<option>El Santuario</option>
+				<option>Entrerrios</option>
+				<option>Envigado</option>
+				<option>Fredonia</option>
+				<option>Frontino</option>
+				<option>Girardo</option>
+				<option>Girardota</option>
+				<option>Gomez Plata</option>
+				<option>Granada</option>
+				<option>Guadadupe</option>
+				<option>Guarne</option>
+				<option>Guatape</option>
+				<option>Heliconia</option>
+				<option>Hispania</option>
+				<option>Itagui</option>
+				<option>Ituango</option>
+				<option>Jardin</option>
+				<option>Jerico</option>
+				<option>La Ceja</option>
+				<option>La Estrella</option>
+				<option>La Pintada</option>
+				<option>La Union</option>
+				<option>Liborina</option>
+				<option>Maceo</option>
+				<option>Marinilla</option>
+				<option>Medellín</option>
+				<option>Montebello</option>
+				<option>Murindo</option>
+				<option>Mutata</option>
+				<option>Nariño</option>
+				<option>Nechi</option>
+				<option>Necocli</option>
+				<option>Olaya</option>
+				<option>Peque</option>
+				<option>Pueblorrico</option>
+				<option>Puerto Berrio</option>
+				<option>Puerto Nare</option>
+				<option>Puerto Triunfo</option>
+				<option>Remedios</option>
+				<option>Rionegro</option>
+				<option>Sabanalarga</option>
+				<option>Sabaneta</option>
+				<option>Salgar</option>
+				<option>San Andres de Cuerquia</option>
+				<option>San Carlos</option>
+				<option>San Francisco</option>
+				<option>San Jeronimo</option>
+				<option>San Jose de la Montaña</option>
+				<option>San Juan de Uraba</option>
+				<option>San Luis</option>
+				<option>San Rafael</option>
+				<option>San Roque</option>
+				<option>San Pedro de los Milagros</option>
+				<option>San Pedro de Uraba</option>
+				<option>San Vicente</option>
+				<option>Santa Fe de Antioquia</option>
+				<option>Santa Rosa de Osos</option>
+				<option>Santo Domingo</option>
+				<option>Segovia</option>
+				<option>Sonson</option>
+				<option>Sopetran</option>
+				<option>Tamesis</option>
+				<option>Taraza</option>
+				<option>Tarso</option>
+				<option>Titiribi</option>
+				<option>Toledo</option>
+				<option>Turbo</option>
+				<option>Uramita</option>
+				<option>Urrao</option>
+				<option>Valdivia</option>
+				<option>Valparaiso</option>
+				<option>Vegachi</option>
+				<option>Venecia</option>
+				<option>Vigia del Fuerte</option>
+				<option>Yali</option>
+				<option>Yarumal</option>
+				<option>Yolombo</option>
+				<option>Yondo</option>
+				<option>Zaragoza</option>
+				</select>
+			</div>
+			<div>
+				Direccion:
+				<input id="direction" name="direction" type="text" placeholder="Escribe la direccion donde vives">
+			</div>
+			<div>
+				Nacionalidad
+				<select>
+				<option></option>
+				</select>
+			</div>
+			<div>
+				Permiso de trabajo
+				<select>
+				<option>Con permiso de trabajo</option>
+				<option>Sin permiso de trabajo</option>
+				<option>En proceso de tramite</option>
+				</select>
+			</div>
+			<div>
+				Licencia de conduccion:
+				<div>Moto:
+				<tr>
+				<td><input type="checkbox" name="pase" value="B2">A1</td>
+				<td><input type="checkbox" name="pase" value="B2">A2</td>
+				<td><input type="checkbox" name="pase" value="B2">No tengo</td>
+				</tr>
+				</div>
+				Carro:
+				<td><input type="checkbox" name="pase" value="B2">B1</td>
+				<td><input type="checkbox" name="pase" value="B2">B2</td>
+				<td><input type="checkbox" name="pase" value="B2">B3</td>
+				<td><input type="checkbox" name="pase" value="B2">C1</td>
+				<td><input type="checkbox" name="pase" value="B2">C2</td>
+				<td><input type="checkbox" name="pase" value="B2">C3</td>
+				<td><input type="checkbox" name="pase" value="B2">No tengo</td>
+				</tr>
+			</div>
+			<div>
+				Dispone vehiculo propio:
+				<input type="radio" name="gender" value="yes" checked>
+				Si<br>
+				<input type="radio" name="gender" value="no" checked> No<br>
+			</div>
+			<div>
+				Discapacidad
+				<input type="radio" name="gender" value="Sicomotriz" checked>Sicomotriz
+				<br>
+				<input type="radio" name="gender" value="Sicomotriz" checked>Auditiva
+				<br>
+				<input type="radio" name="gender" value="Sicomotriz" checked>Sorda
+				<br>
+				<input type="radio" name="gender" value="Sicomotriz" checked>Muda
+				<br>		
+				<input type="radio" name="gender" value="Sicomotriz" checked>Ciego
+				<br>		
+			</div>
+			<div>
+				Seleccione la imagen de perfil
+				<form action="archivo.php" method="post">Ingrese la foto
+				<input type="file" name="foto"></form>
+			</div>
+		</fieldset>
+		<fieldset>
+			<legend>Perfil Profesional</legend>
+			<div>
+				Cargo o titulo breve de su hoja de vida*
+				<textarea name="cargo" placeholder="Titulo a cargo" style="width:100px" rows="1" id=cargo onkeydown="agrandar(event)"></textarea>
+			</div>
+			<div>
+				Descripcion breve de su perfil profesional*
+				<textarea maxlength="500" name="cargo" placeholder="Descripcion de su perfil" style="width:100px" rows="1" id=cargo onkeydown="agrandar(event)">Maximo 500</textarea>
+			</div>
+		</fieldset>
+<script type="text/javascript">
+
+	function obtenerNombre(){
+
+	var nombre = document.getElementById("nombre").value;
+	var apellido = document.getElementById("apellido").value;
+	return nombre + " " + apellido;
+}	
+
+
+	
+</script>
+
+<button onclick="alert(obtenerNombre()); alert('Usuario ' + nombre.value
+	 + apellido.value + ' se ha registrado')">Confirmar</button>
+
+
+</body>
+</html>
+

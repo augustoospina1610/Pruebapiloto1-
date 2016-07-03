@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Nota En Promedio</title>
+</head>
+<body>
+<script type="text/javascript">
+
+	var text;
+	var nota1;
+	var nota2;
+	var nota3;
+
+
+	text = prompt("Nombre del Estudiante");
+	nota1 = parseFloat(prompt("Nota 1"));
+	nota2 = parseFloat(prompt("Nota 2"));
+	nota3 = parseFloat(prompt("Nota 3"));
+
+	var promedio = (nota1+nota2+nota3)/3;
+
+	document.write("Su nombre es:")
+	document.write(text)
+	document.write("<br>");
+	document.write("Su promedio es de:");
+	document.write(promedio)
+
+alert("Resultado es: " + text
+	 + "" + promedio);
+
+
+</script>
+</body>
+</html>
