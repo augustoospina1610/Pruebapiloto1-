@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+
+<form name="form1">
+
+<label>Nombre</label>
+<input id="NombreId" type="text" name="nombre">
+
+</form>
+
+<script type="text/javascript">
+	
+	function obtenerNombre(){
+		
+		//var nombre = document.getElementById("nombreId").value;
+
+		var nombre = document.form1.nombreId.value;
+		return nombre;
+	}
+
+	</script>
+
+<button onclick="alert(obtenerNombre())">Click</button>
+
+</body>
+</html>
